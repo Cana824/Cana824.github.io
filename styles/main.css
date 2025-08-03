@@ -1,0 +1,37 @@
+.blog-heading {
+  font-family: Arial;
+  background-color: rgba(221, 118, 192, 0.881);
+  color: rgb(11, 6, 6);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+nav-bar {
+  text-align: centre;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: rgb(246, 245, 245);
+  border-radius: 10px;
+  color: black;
+}
+
+#album > img {
+  width: 20%;
+  height: auto;
+  border-radius: 50px;
+  margin: 1%;
+}
+
+#album {
+  text-align: center;
+}
