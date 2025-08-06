@@ -1,91 +1,92 @@
-<!DOCTYPE html css>
-  <head>
-<link href="../styles/main.css" rel="stylesheet" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
- <title>Learning</title>
+<!DOCTYPE html>
+<head>
+  <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Learning</title>
+</head>
 
-  </head>
-
-  <body>
-
-<div id="nav-bar">
-      <a href="../index.html" class="nav-button"> Home </a>
-      <a href="" class="nav-button">Learning</a>
-      <a href="te-houtaewa-template.html" class="nav-button"
-        >Te-houtaewa-template</a
-        
-      >
-    </div>
-
-
-    <div><p>
-      The  <span class="id-selector">id</span> and  <span class="class-selector">class</span> attributes in HTML are both used to label elements, allowing CSS to target and style them. While they serve a similar purpose, there are <span class="underline">key differences</span> between them.
-    </p></div>
-<div id="box-container">
-  
-  
+<body>
+  <div id="nav-bar">
+    <a href="../index.html" class="nav-button"> Home </a>
+    <a href="" class="nav-button">Learning</a>
+    <a href="te-houtaewa-template.html" class="nav-button"
+      >Te-houtaewa-template</a
+    >
+  </div>
   <div>
+    <h1>What are the best practices associated with using classes vs. ids?</h1>
+  </div>
+
+  <div>
+    <p>
+      The <span class="id-selector">id</span> and
+      <span class="class-selector">class</span> attributes in HTML are both used
+      to label elements, allowing CSS to target and style them. While they serve
+      a similar purpose, there are
+      <span class="underline">key differences</span> between them.
+    </p>
+  </div>
+  <div id="box-container">
     <p id="p1">
-      Unique: The id attribute is unique - there is only one element on a page should have a given id. This is useful when you want to target a single, specific element. For example, a unique page title or header that has its own special styling. 
-      <br>In CSS syntax: A class selector is written with a . (e.g., .button)</br>
-      <br>id has a higher precendence in CSS as it has a high specificity</br>
+      Unique: The id attribute is unique - there is only one element on a page
+      should have a given id. This is useful when you want to target a single,
+      specific element. For example, a unique page title or header that has its
+      own special styling. <br />
+      <br />In CSS syntax: A class selector is written with a . (e.g., .button)
+      <br />id has a higher precendence in CSS as it has a high specificity
     </p>
-  </div>
-  <div>
+
     <p id="p2">
-      Reusable: The class attribute, on the other hand, is reusable and can be applied to multiple elements. This makes it ideal for styling a group of elements that share a common design  like all the buttons on a page, and images.
-      <br>In CSS syntax: An id selector is written with a # (e.g., #header)</br>
-      <br>class has a lower priority compared to CSS so the id selector attributes will take effect</br>
+      Reusable: The class attribute, on the other hand, is reusable and can be
+      applied to multiple elements. This makes it ideal for styling a group of
+      elements that share a common design like all the buttons on a page, and
+      images. <br />
+      <br />In CSS syntax: An id selector is written with a # (e.g., #header)
+      <br />class has a lower priority compared to CSS so the id selector
+      attributes will take effect
     </p>
   </div>
-</div>
-<p>
-  A helpful analogy: imagine many Toyota Corollas -they all share the same make and model. If you wanted to style all Toyota Corollas, you'd use a class like ".corolla". But if you want to style your specific Corolla, you'd use an id like "#my-car", because there's only one.
-</p>
-
-
-<div>
-  <p>
-    In Summary:
+  <p class="analogy italic">
+    A helpful analogy: imagine many Toyota Corollas -they all share the same
+    make and model. If you wanted to style all Toyota Corollas, you'd use a
+    class like <span class="class-selector bold">".corolla"</span>. But if you
+    want to style your specific Corolla, you'd use an id like
+    <span class="id-selector bold">"#my-car"</span>, because there's only one.
   </p>
-  <table>
-    <tr class ="bold">
+
+  <div>
+    <p>In Summary:</p>
+    <table>
+      <tr class="bold">
         <td class="feature">Name</td>
         <td class="id-selector">id</td>
         <td class="class-selector">class</td>
-    </tr>
-    <tr>
-      <td  class="feature" class="feature" class="bold">Purpose</td>
-      <td class="id-selector">Labels a single, unique element</td>
-      <td class="class-selector">Labels multiple, reusable elements</td>
-    </tr>
-    <tr>
-      <td class="feature" class ="bold">Usage</td>
-      <td class="id-selector">Must be unique per page</td>
-      <td class="class-selector">Can be used on many elements</td>
-    </tr>
-    <tr>
-      <td class="feature" class ="bold">Example</td>
-      <td class="id-selector"> For one specific element (eg. header)</td>
-      <td class="class-selector">For groups of elements (eg. all buttons)</td>
-    </tr>
-    <tr>
-      <td class="feature" class="bold">Priority</td>
-      <td class="id-selector"> Higher priority</td>
-      <td class="class-selector">Lower priority compared to id</td>
-    </tr>
-    <tr>
-      <td class="feature" class="bold">CSS Syntax</td>
-      <td class="id-selector">#idName (eg. #header)</td>
-      <td class="class-selector">.className (eg. .button)</td>
-    </tr>
-  </table>
-
-</div>
-
-
+      </tr>
+      <tr>
+        <td class="feature bold">Purpose</td>
+        <td class="id-selector">Labels a single, unique element</td>
+        <td class="class-selector">Labels multiple, reusable elements</td>
+      </tr>
+      <tr>
+        <td class="feature bold">Usage</td>
+        <td class="id-selector">Must be unique per page</td>
+        <td class="class-selector">Can be used on many elements</td>
+      </tr>
+      <tr>
+        <td class="feature bold">Example</td>
+        <td class="id-selector">For one specific element (eg. header)</td>
+        <td class="class-selector">For groups of elements (eg. all buttons)</td>
+      </tr>
+      <tr>
+        <td class="feature bold">Priority</td>
+        <td class="id-selector">Higher priority</td>
+        <td class="class-selector">Lower priority compared to id</td>
+      </tr>
+      <tr>
+        <td class="feature bold">CSS Syntax</td>
+        <td class="id-selector">#idName (eg. #header)</td>
+        <td class="class-selector">.className (eg. .button)</td>
+      </tr>
+    </table>
+  </div>
 </body>
-
-
-
-</html css>
