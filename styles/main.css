@@ -168,3 +168,12 @@ table {
   padding: 15px;
   border-radius: 20px;
 }
+
+.type1 {
+  width: 25%;
+  height: auto;
+  border-radius: 30%;
+  margin: 1%;
+  text-align: center;
+  background-color: rgba(220, 220, 220, 0.42);
+}
