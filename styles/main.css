@@ -177,3 +177,12 @@ table {
   text-align: center;
   background-color: rgba(220, 220, 220, 0.42);
 }
+
+.model-te-whare {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+}
