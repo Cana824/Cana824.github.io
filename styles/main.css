@@ -29,7 +29,11 @@ h2 {
 h3 {
   font-weight: bold;
   color: rgb(105, 61, 61);
-  font-size: 16.5px;
+  font-size: 18.5px;
+}
+
+.red {
+  color: rgb(199, 73, 73);
 }
 
 .nav-button {
@@ -175,7 +179,8 @@ table {
   border-radius: 30%;
   margin: 1%;
   text-align: center;
-  background-color: rgba(220, 220, 220, 0.42);
+  background-color: rgba(176, 196, 222, 0.45);
+  padding: 10px;
 }
 
 .model-te-whare {
@@ -185,4 +190,23 @@ table {
   border-width: 10px;
   border-style: solid;
   border-color: lightgray;
+}
+
+.float-img {
+  float: right;
+  width: 20%;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-right: 5%;
+  border-radius: 30%;
+  background-color: rgba(176, 196, 222, 0.45);
+  padding: 15px;
+}
+
+.textbox {
+  background-color: rgba(176, 196, 222, 0.45);
+  border-radius: 4%;
+  padding: 15px;
+  margin-top: 20px;
 }
